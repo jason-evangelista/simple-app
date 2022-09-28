@@ -1,0 +1,15 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.first-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.input-style {
+  padding: 0.5rem;
+}

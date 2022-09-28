@@ -1,0 +1,38 @@
+.todo-form-group {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  justify-content: center;
+}
+
+.todo-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.item {
+  font-weight: 600;
+  margin: 0.5rem 0;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px;
+}
+.item::before {
+  content: '🚀 ';
+}
+
+.item-check {
+  color: rgb(102, 102, 102);
+  text-decoration: line-through;
+}
+
+.item-form {
+  align-items: center;
+  display: flex;
+  gap: 0.2rem;
+  margin: 1rem 0;
+  justify-content: center;
+}
